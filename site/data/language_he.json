@@ -1,5 +1,6 @@
 {
     "site_title": "Bezalel-Site",
     "send":"שלח פרטים ונחזור אליך",
-    "number":"09-7654321"
+    "number":"09-7654321",
+    "copyright": "Designed and developed by<a href=\"http://www.way2cu.com\">Way2CU.</a><br> All rights reserved."
 }
