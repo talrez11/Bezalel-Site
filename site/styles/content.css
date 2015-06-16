@@ -55,6 +55,21 @@ h3 {
  	display: block;
  	padding: 20px calc((100vw - 1200px) / 2);
  	background-color: #221e1f;
+ 	position: relative;
+ }
+
+ div.features:before {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -50px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 60px solid #221e1f;
+	z-index: 10;
  }
 
  article.features_article {
@@ -166,7 +181,7 @@ article.features_article p:nth-of-type(4) {
 
   article.map_article h2 {
   	display: block;
-  	padding-top: 20px;
+  	padding-top: 80px;
   	color:#3397da;
 }
 
