@@ -40,8 +40,29 @@
 						text_id="contact_form"
 						/>
 				</div>
-
 			</header>
+
+			<div class="features">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="features_article"
+					template="parts/article_features.xml"
+					/>
+			</div>
+
+			<div class="map">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="map_article"
+					template="parts/article.xml"
+					/>
+			</div>
+
+			<footer>
+				<span><cms:text constant="copyright"/></span>
+			</footer>
 		</body>
 	</html>
 </document>
