@@ -49,6 +49,20 @@ Site.is_mobile = function() {
  * Function called when document and images have been completely loaded.
  */
 Site.on_load = function() {
+	// map Canvas
+	if ($('div#map_canvas').length) {
+	var map = new google.maps.Map(document.getElementById('map_canvas'), panoramaOptions);
+	  var fenway = new google.maps.LatLng(42.345573, -71.098326);
+	  var panoramaOptions = {
+	    position: fenway,
+	    pov: {
+	      heading: 34,
+	      pitch: 10
+	    }
+	  };
+	  var panorama = new google.maps.StreetViewPanorama(document.getElementById('map_canvas'), panoramaOptions);
+	  map.setStreetView(panorama);
+	}
 };
 
 
