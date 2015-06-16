@@ -6,6 +6,7 @@
 		<head>
 			<title><cms:text constant="site_title"/></title>
 			<cms:module name="head_tag" action="print_tag"/>
+			<script src="https://maps.googleapis.com/maps/api/js?language=iw"></script>
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
@@ -58,6 +59,9 @@
 					text_id="map_article"
 					template="parts/article.xml"
 					/>
+				<div id="map_canvas">
+					
+				</div>	
 			</div>
 
 			<footer>
