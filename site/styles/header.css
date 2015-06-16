@@ -1,0 +1,192 @@
+/**
+ * Header Style Sheet
+ * Bezalel Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ header {
+	display: block;
+	padding: 125px calc((100vw - 1200px) / 2);
+	padding-bottom: 0px;
+	background-image: url(../images/header-background-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1920px 800px;
+	min-height: 675px;
+ }
+
+div.article_wrapper {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 185px;
+ }
+
+div.article_wrapper article.header_article {
+	display:block;
+	text-align: right;
+	background-image: url(../images/newspaper.png);
+	background-repeat: no-repeat;
+	background-position: center 30px;
+	background-size: 600px 340px;
+	width: 600px;
+	min-height: 340px;
+ }
+
+div.article_wrapper article.header_article h2 {
+	display: block;
+	padding-top: 65px;
+	padding-right: 90px;
+	font-size: 2.8em;
+	font-weight: 900;
+	width: 60%;
+	position: relative;
+	z-index: 10;
+}
+
+div.article_wrapper article.header_article h2:before {
+	content: "";
+	position: absolute;
+	top: 60px;
+	left: -90px;
+	background-image: url(../images/marker.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 500px 141px;
+	width: 500px;
+	height: 141px;
+	z-index: -1;
+}
+
+div.article_wrapper article.header_article p {
+	display: block;
+	padding-top: 15px;
+	padding-right: 50px;
+	font-weight: 700;
+	width: 70%;
+
+}
+
+div.form_wrap {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: rgba(43, 61, 79, 0.7);
+	width: calc(390px - 44px);
+	border: 2px solid rgba(255, 255, 255, 0.79);
+	position: relative;
+	left: 20px;
+ }
+
+ div.form_wrap:before {
+	content: "";
+	position: absolute;
+	top: -50px;
+	left: -50px;
+	background-image: url(../images/ribbon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 180px 180px;
+	width: 180px;
+	height: 180px;
+
+ }
+
+ article.form_article {
+ 	display: block;
+
+ }
+
+ article.form_article h3 {
+	display: block;
+	margin-top: 0.5em;
+	color: white;
+	width: 70%;
+ }
+
+ article.form_article p {
+	display: block;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	font-size: 1.3em;
+	width: 89%;
+ }
+
+ form {
+ 	display: block;
+ 	text-align: center;
+ }
+
+form label {
+ 	display: block;
+ 	margin-bottom: 20px;
+ 	position: relative;
+ }
+
+form label:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	right:0px;
+	background-image: url(../images/form-icons-sprite.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 200px 50px;
+	width: 50px;
+	height: 50px;
+}
+
+form label input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-right: 40px;
+	border:none;
+	border:1px solid transparent;
+	font-size: 1.2em;
+	color:#bcc2c6;
+	width: calc(100% - 40px);
+}
+
+form label input:hover {
+	border:1px solid #5bc2d8;
+}
+
+form label input:focus {
+	border:1px solid #3397da;
+}
+
+form div.controls {
+	display: block;
+	margin-bottom: 2em;
+}
+
+form div.controls button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 40px;
+	padding-left: 40px;
+	background-color: #3397da;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	font-size: 1.8em;
+	width: 100%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	transition:all 0.3s;
+}
+
+form div.controls button:hover {
+	background-color: #5bc2d8;
+}
