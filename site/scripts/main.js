@@ -52,7 +52,7 @@ Site.on_load = function() {
 	// map Canvas
 	if ($('div#map_canvas').length) {
 	var map = new google.maps.Map(document.getElementById('map_canvas'), panoramaOptions);
-	  var fenway = new google.maps.LatLng(32.070931, 34.770765);
+	  var fenway = new google.maps.LatLng(32.070889, 34.771438);
 	  var panoramaOptions = {
 	    position: fenway,
 	    pov: {
