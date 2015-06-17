@@ -118,10 +118,10 @@ article.features_article p:nth-of-type(2) {
  article.features_article p:nth-of-type(3) {
  	display: inline-block;
  	vertical-align: top;
-  	padding-top: 200px;	
-  	color:white;	
+  	padding-top: 200px;
+  	color:white;
   	width: 350px;
-	position: relative;	
+	position: relative;
  }
 
 article.features_article p:nth-of-type(3):before {
@@ -141,10 +141,10 @@ article.features_article p:nth-of-type(3):before {
 article.features_article p:nth-of-type(4) {
  	display: inline-block;
  	vertical-align: top;
-  	padding-top: 200px;	
-  	color:white;	
+  	padding-top: 200px;
+  	color:white;
   	width: 350px;
-	position: relative; 		
+	position: relative;
  }
 
  article.features_article p:nth-of-type(4):before {
@@ -237,17 +237,71 @@ footer span a {
 
 footer span a:hover {
 	color:#5bc2d8;
-} 
+}
 
 /*Tablet Version*/
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+header {
+    display: block;
+    padding: 125px calc((100vw - 1200px) / 2);
+    padding-bottom: 0px;
+    background-image: url(../images/header-background-01.jpg);
+    background-repeat: no-repeat;
+    background-position: -840px top;
+    background-size: 1920px 800px;
+    min-height: 675px;
+}
+
 div.article_wrapper {
   display: inline-block;
   vertical-align: top;
   text-align: center;
   margin-right: 0px;
 }
+
+div.article_wrapper article.header_article {
+	display: block;
+	padding-top: 170px;
+	text-align: right;
+	background-image: url(../images/newspaper.png);
+	background-repeat: no-repeat;
+	background-position: center 200px;
+	background-size: 580px 350px;
+	width: 580px;
+	min-height: 350px;
+}
+
+div.form_wrap {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgba(43, 61, 79, 0.7);
+    width: calc(380px - 44px);
+    border: 2px solid rgba(255, 255, 255, 0.79);
+    position: relative;
+    left: 40px;
+}
+
+div.form_wrap:before {
+	left: -30px;
+}
+
+div.features:before {
+	top:99%;
+}
+
+article.form_article h3 {
+	font-size: 1.7em;
+	width: 60%;
+}
+
+article.form_article p {
+	font-size: 1.1em;
+}
+
 
 article.features_article p:nth-of-type(2) {
 	width: 300px;

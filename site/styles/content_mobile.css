@@ -52,16 +52,17 @@ h3 {
  header {
 	display: block;
 	background-color: #2b3d4f;
-	background-image: url(../images/mobile-header-background-01.jpg);
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size:100% auto;
-	min-height: 452px;
+
  }
 
  div.article_wrapper {
 	display:block;
 	text-align: center;
+	background-image: url(../images/mobile-header-background-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center -15px;
+	background-size:100% auto;
+	min-height: 452px;
  }
 
  div.article_wrapper article.header_article {
@@ -104,24 +105,25 @@ div.article_wrapper article.header_article p {
 
 div.form_wrap {
     display: block;
-    padding-top: 20px;
+    padding-top: 90px;
     padding-bottom: 20px;
     background-color: #2b3d4f;
     position: relative;
+
  }
 
-/*  div.form_wrap:before {
+  div.form_wrap:before {
     content: "";
     position: absolute;
-    top: -105px;
-    left: -25px;
+    top: -20px;
+    left: 0px;
     background-image: url(../images/ribbon2.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: -15px center;
     background-size: 280px 91px;
     width: 280px;
     height: 91px;
- }*/
+ }
 
  article.form_article {
  	display: block;
@@ -242,7 +244,7 @@ form div.controls button:hover {
   div.features:before {
 	content: "";
 	position: absolute;
-	top: 100%;
+	top: 99%;
 	left: 50%;
 	margin-left: -50px;
 	width: 0;
