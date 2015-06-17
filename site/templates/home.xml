@@ -27,7 +27,6 @@
 							<cms:text constant="number"/>
 						</a>
 				</div>
-
 				<div class="form_wrap">
 					<cms:module
 						name="articles"
@@ -60,8 +59,8 @@
 					template="parts/article.xml"
 					/>
 				<div id="map_canvas">
-					
-				</div>	
+
+				</div>
 			</div>
 
 			<footer>
