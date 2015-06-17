@@ -66,7 +66,6 @@ div.article_wrapper article.header_article p {
 	padding-right: 50px;
 	font-weight: 700;
 	width: 70%;
-
 }
 
 div.form_wrap {
@@ -92,22 +91,21 @@ div.form_wrap {
 	background-size: 180px 180px;
 	width: 180px;
 	height: 180px;
-
  }
 
- article.form_article {
+article.form_article {
  	display: block;
 
- }
+}
 
- article.form_article h3 {
+article.form_article h3 {
 	display: block;
 	margin-top: 0.5em;
 	color: white;
 	width: 70%;
- }
+}
 
- article.form_article p {
+article.form_article p {
 	display: block;
 	color: white;
 	padding-top: 15px;
@@ -115,12 +113,12 @@ div.form_wrap {
 	padding-left: 10px;
 	font-size: 1.3em;
 	width: 89%;
- }
+}
 
- form {
+form {
  	display: block;
  	text-align: center;
- }
+}
 
 form label {
  	display: block;
@@ -139,6 +137,14 @@ form label:before {
 	background-size: 200px 50px;
 	width: 50px;
 	height: 50px;
+}
+
+form label:nth-of-type(2):before {
+    background-position: -50px 0px;
+}
+
+form label:nth-of-type(3):before {
+    background-position: -100px 0px;
 }
 
 form label input {
